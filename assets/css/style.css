@@ -2,11 +2,6 @@ body {
   background-color: lightblue;
 } 
 
-.marginauto {
-  margin: 40px, auto, auto, auto;
-  display: block;
-}
-
 h1 {
   color: purple;
   font-family: 'Times New Roman', Times, serif;
