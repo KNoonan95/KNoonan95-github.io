@@ -8,6 +8,11 @@
   display: block;
   }
 
+.wraptext {
+  text-align: justify;
+  font-size: 25px;
+}
+
 .nav {
   background-color: lightblue;
   overflow: hidden;
@@ -45,11 +50,10 @@ body {
 
 h1 {
   color: purple;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: serif ;
   text-align: center;
   margin-top: 30px;
   margin-left: 40px;
-  
 }
 
 h2 {
