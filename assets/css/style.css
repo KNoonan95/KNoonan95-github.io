@@ -1,3 +1,13 @@
+/* This isn't mine, just testing, belongs to https://uxplanet.org/10-lifesaving-html-css-tricks-for-designers-11bbf76729eb*/
+* {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  display: block;
+  }
+
 body {
   background-color: lightblue;
 } 

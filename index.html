@@ -37,11 +37,26 @@
   
   <p>Contact me at KNoonan1995@gmail.com</p>
   </body>
+
   
+ <!---This isn't mine, just testing, belongs to https://uxplanet.org/10-lifesaving-html-css-tricks-for-designers-11bbf76729eb --->
   <p style="font-size:40px; color:red;">
     <a href="https://knoonan95.github.io/about.html">About me</a>
   </p>
-  
+  <div id="hamburger" onClick="handleMenu()"> ... </div><div id="navigation"> ... </div>
+<script>var open = false;function handleMenu() {/** open the menu **/
+ if (!open) {
+    document.getElementById("navigation").classList.add("opened");
+    open = true;
+   
+    
+  } 
+/** else close the menu **/   else {
+      document.getElementById("navigation").classList.remove("opened");
+    open = false;
+  }
+ }
+</script>
 </html>
 
   
