@@ -7,7 +7,7 @@
   position: relative;
   display: block;
   }
-  
+
 body {
   background-color: lightblue;
 } 
@@ -36,6 +36,10 @@ p {
   text-align: center;
   margin-left: 40px;
   line-height: 1.8;
+}
+
+img{
+  border: 8px solid rgb(5, 72, 25)
 }
 
 .automargin {
