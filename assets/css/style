@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: purple;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-left: 40px;
+}
+p {
+  color: black;
+  font-family: verdana;
+  text-align: center;
+  margin-left: 20px;
+    
+}
