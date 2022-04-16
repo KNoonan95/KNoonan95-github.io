@@ -1,9 +1,10 @@
 body {
   background-color: lightblue;
-}
+} 
 
-body2 {
- background-color: blue; 
+.marginauto {
+  margin: 40px, auto, auto, auto;
+  display: block;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h2 {
   text-align: center;
   margin-top: 40px;
   margin-left: 40px;
-  margin-bottom; 20px;
+  margin-bottom: 20px;
 }
 
 p {
