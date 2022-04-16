@@ -8,6 +8,31 @@
   display: block;
   }
 
+/* borrowed from tutorial on https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+  background-color: rgb(27, 16, 226);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 body {
   background-color: lightblue;
 } 
@@ -40,20 +65,6 @@ p {
 
 img{
   border: 10px solid rgb(5, 72, 25)
-}
-
-a{
-  font-size: large;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-a:visited{
-  color: red;
-}
-
-a:link{
-  color:blue;
 }
 
 .automargin {
