@@ -15,17 +15,19 @@
 
 
 .right {
-  padding-left: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 10px;
+  float: inline-end;
+  padding-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 20px;
 }
 
 .left {
-  padding-left: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-right: 50px;
+  float: inline-start;
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
 }
 
 .wrappingimageleft
