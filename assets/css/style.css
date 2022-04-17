@@ -13,11 +13,9 @@
   font-size: 25px;
 }
 
-
 .padtext {
   padding:50px;
 }
-
 
 .wrappingimageleft
 {  
@@ -106,7 +104,7 @@ img{
   right: 1px;
   bottom: 1px;     
   width: 100%;  
-  background-color: cadetblue; 
+  background-color: rgb(211, 41, 41); 
   color: black;  
   text-align: center;  
   }  
