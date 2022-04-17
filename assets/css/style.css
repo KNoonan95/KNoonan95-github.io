@@ -13,6 +13,11 @@
   font-size: 25px;
 }
 
+
+div.a {
+  word-wrap: normal;
+}
+
 .wrappingimageleft
 {  
 float: left;   
