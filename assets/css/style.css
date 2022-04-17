@@ -14,13 +14,10 @@
 }
 
 
-.right {
+.padtext {
   padding:50px;
 }
 
-.left {
-  padding:50px;
-}
 
 .wrappingimageleft
 {  
@@ -102,6 +99,17 @@ img{
   margin-right: auto;
   width: 50%;
 }
+
+.footer {  
+  position: bottom;  
+  left: 1px;  
+  right: 1px;
+  bottom: 1px;     
+  width: 100%;  
+  background-color: cadetblue; 
+  color: black;  
+  text-align: center;  
+  }  
 
 @media screen and (max-width: 500px) {
   .nav a {
