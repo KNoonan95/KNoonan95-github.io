@@ -13,6 +13,20 @@
   font-size: 25px;
 }
 
+.wrappingimageleft
+{  
+float: left;   
+margin: 20px auto;   
+border: 4px solid green;  
+}   
+
+.wrappingimageright
+{  
+float: right;   
+margin: 20px auto;   
+border: 4px solid green;  
+}   
+
 .nav {
   background-color: lightblue;
   overflow: hidden;
