@@ -75,21 +75,7 @@ p {
 }
 
 img{
-  border: 10px solid rgb(5, 72, 25)
-}
-
-.imgleft img{
-  float: left;
-  text-align: left;
-  width:200;
-  height:400;
-}
-
-.imgright img{
-  float: right;
-  text-align: right;
-  width:600 ;
-  height:600;
+  border: 5px solid rgb(5, 72, 25)
 }
 
 .automargin {
