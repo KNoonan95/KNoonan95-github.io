@@ -78,6 +78,16 @@ img{
   border: 10px solid rgb(5, 72, 25)
 }
 
+.imgleft {
+  float: left;
+  text-align: left;
+}
+
+.imgright {
+  float: right;
+  text-align: right;
+}
+
 .automargin {
   display: block;
   margin-left: auto;
