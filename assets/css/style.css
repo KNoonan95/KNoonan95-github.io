@@ -81,15 +81,15 @@ img{
 .imgleft img{
   float: left;
   text-align: left;
-  width:50%;
-  height:auto;
+  width:200;
+  height:400;
 }
 
 .imgright img{
   float: right;
   text-align: right;
-  width:50% ;
-  height:auto;
+  width:600 ;
+  height:600;
 }
 
 .automargin {
