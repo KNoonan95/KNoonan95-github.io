@@ -13,6 +13,21 @@
   font-size: 25px;
 }
 
+
+.right {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.left {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
 .wrappingimageleft
 {  
 float: left;   
