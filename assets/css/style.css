@@ -14,14 +14,14 @@
 }
 
 
-div.right {
+.right {
   padding-left: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 10px;
 }
 
-div.left {
+.left {
   padding-left: 10px;
   padding-top: 50px;
   padding-bottom: 50px;
