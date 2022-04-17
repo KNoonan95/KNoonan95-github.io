@@ -13,23 +13,6 @@
   font-size: 25px;
 }
 
-
-.right {
-  float: inline-end;
-  padding-left: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 20px;
-}
-
-.left {
-  float: inline-start;
-  padding-left: 20px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 100px;
-}
-
 .wrappingimageleft
 {  
 float: left;   
