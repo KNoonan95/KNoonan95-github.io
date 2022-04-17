@@ -16,13 +16,13 @@
 .wrappingimageleft
 {  
 float: left;   
-margin: 20px 10px 2px 2px;   
+margin: 20px 10px 20px 2px;   
 }   
 
 .wrappingimageright
 {  
 float: right;   
-margin: 20px 10px 2px 2px;     
+margin: 20px 2px 20px 10px;     
 }   
 
 .nav {
