@@ -78,14 +78,14 @@ img{
   border: 10px solid rgb(5, 72, 25)
 }
 
-.imgleft {
+.imgleft img{
   float: left;
   text-align: left;
   width:50%;
   height:auto;
 }
 
-.imgright {
+.imgright img{
   float: right;
   text-align: right;
   width:50% ;
