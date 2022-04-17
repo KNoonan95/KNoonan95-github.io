@@ -14,8 +14,18 @@
 }
 
 
-div.a {
-  word-wrap: normal;
+div.right {
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+
+div.left {
+  padding-left: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
 }
 
 .wrappingimageleft
