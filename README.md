@@ -1,7 +1,1 @@
-
-
-Here be dragons , or at least for now that is all that is here. 
-
-At some point in the near future a portfolio (however modest) will exist here also. 
-
-Hopefully proving more tangible than mythical serpents. 
+This branch will remain as an example of early style webpages using basic html and css, I will update this as a hobby project more so than a legitimate website to be published. 
