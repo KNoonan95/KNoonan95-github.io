@@ -51,6 +51,8 @@ nav ul li a{
   color: #a9a9a9;
   font-size: 22px;
   margin: auto 10px; 
+  padding: 20px;
+  display: inline-block;
 }
 
 nav ul li a:hover{
