@@ -1,12 +1,3 @@
-/* This isn't mine, just testing, belongs to https://uxplanet.org/10-lifesaving-html-css-tricks-for-designers-11bbf76729eb*/
-* {
-  padding: 0;
-  margin: 0;
-  max-width: 100%;
-  overflow-x: hidden;
-  position: relative;
-  display: block;
-  }
 
 .wraptext {
   text-align: justify;
@@ -36,28 +27,34 @@ margin: 20px 2px 20px 10px;
   list-style-type: none;
 }
 
-.nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
+body{
+  display: block;
+  overflow-x: hidden;
 }
 
-.nav a {
-  color: purple;
-  text-align: center;
-  text-decoration:underline;
-  font-size: 20px;
-  padding: 20px;
+nav{
+  background-color: white;
 }
 
-.nav a:hover {
-  background-color: #ddd;
-  color: black;
+.navbar-brand img {
+  max-height: 50px;
 }
 
-.nav a.active {
-  background-color: #04AA6D;
-  color: white;
+.navbar-brand{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #683aa4;
+}
+
+nav ul li a{
+  color: #a9a9a9;
+  font-size: 22px;
+  margin: auto 10px; 
+}
+
+nav ul li a:hover{
+  color: #683aa4;
 }
 
 body {
