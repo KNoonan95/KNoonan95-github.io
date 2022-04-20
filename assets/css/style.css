@@ -28,6 +28,7 @@ margin: 20px 2px 20px 10px;
 }
 
 body{
+  background-color: lightblue;
   display: block;
   overflow-x: hidden;
 }
@@ -52,16 +53,11 @@ nav ul li a{
   font-size: 22px;
   margin: auto 10px; 
   padding: 20px;
-  display: inline-block;
 }
 
 nav ul li a:hover{
   color: #683aa4;
 }
-
-body {
-  background-color: lightblue;
-} 
 
 h1 {
   color: purple;
