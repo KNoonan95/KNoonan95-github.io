@@ -37,28 +37,6 @@ nav{
   background-color: white;
 }
 
-.navbar-brand img {
-  max-height: 50px;
-}
-
-.navbar-brand{
-  font-size: 24px;
-  text-transform: uppercase;
-  font-weight: 900;
-  color: #683aa4;
-}
-
-nav ul li a{
-  color: #a9a9a9;
-  font-size: 22px;
-  margin: auto 10px; 
-  padding: 20px;
-}
-
-nav ul li a:hover{
-  color: #683aa4;
-}
-
 h1 {
   color: purple;
   font-family: serif ;
