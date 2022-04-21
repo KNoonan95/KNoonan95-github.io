@@ -1,0 +1,63 @@
+site: Kevin Noonan
+url: https://KNoonan95.github.io
+title: Kevin Noonan
+description: KN
+welcome: Hi, My name is Kevin , welcome to my site
+#construction: Hi, this site is currently under construction. Please check back at a later date to view the finished product
+
+accent_image:
+  background: 'light-blue'
+  overlay:    false    
+
+font:         "Helvetica, sans-serif"
+font_heading: "'Helvetica, Arial, sans-serif"
+
+permalink: pretty
+
+paginate: 1000
+paginate_path: "/page:num/"
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  projects:
+    output: true
+    permalink: /projects/:slug
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
