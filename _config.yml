@@ -1,29 +1,55 @@
 site: Kevin Noonan
 url: https://KNoonan95.github.io
 title: Kevin Noonan
-description: KN
+author:
+  name:  Kevin Noonan
+  picture: /images/MeOnTowntinna.jpg
+  email: knoonan1995@gmail.com
+description: Portfolio website
 welcome: Hi, My name is Kevin , welcome to my site
-#construction: Hi, this site is currently under construction. Please check back at a later date to view the finished product
 
 accent_image:
   background: 'light-blue'
   overlay:    false    
 
-font:         "Helvetica, sans-serif"
-font_heading: "'Helvetica, Arial, sans-serif"
+font: "sans-serif"
+font_heading: "sans-serif"
+hydejack:
+  no_google_fonts: true
 
 permalink: pretty
 
-paginate: 1000
-paginate_path: "/page:num/"
+paginate:      5
+paginate_path: 'index.html'
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
+
+optional_front_matter:
+  remove_originals:    true
+
+readme_index:
+  remove_originals:    true
+
+relative_links:
+  collections:         true
+
+titles_from_headings:
+  strip_title:         true
+  collections:         true
+
+kramdown:
+  footnote_backlink:   '&#x21a9;&#xfe0e;'
+  math_engine:         mathjax
+  math_engine_opts:
+    preview:           true
+    preview_as_code:   true
 
 sass:
   sass_dir: _sass
   style: :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-avatar
 
 collections:
   pages:
@@ -35,6 +61,19 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
+
+theme: jekyll-theme-hydejack
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+compress_html:
+comments:            ['<!-- ', ' -->']
+clippings:           all
+endings:             all
+
 
 defaults:
   - scope:
@@ -57,7 +96,3 @@ defaults:
     values:
       layout: "project"
 
-  - scope:
-      path: "assets/images"
-    values:
-      image: true
