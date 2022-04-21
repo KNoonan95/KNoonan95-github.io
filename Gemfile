@@ -4,6 +4,8 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2"
 
+gem "jekyll-theme-hydejack"
+
 gem "jekyll-avatar"
 gem 'jekyll-gist'
 gem 'jekyll-seo-tag'
