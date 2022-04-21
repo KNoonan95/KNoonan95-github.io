@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2"
 
-gem "jekyll-theme-hydejack"
+gem "just-the-docs"
 
 gem "jekyll-avatar"
 gem 'jekyll-gist'

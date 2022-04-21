@@ -62,7 +62,7 @@ collections:
     output: true
     permalink: /projects/:slug
 
-theme: jekyll-theme-hydejack
+theme: just-the-docs
 
 exclude:
   - vendor
