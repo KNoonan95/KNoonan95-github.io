@@ -70,10 +70,9 @@ exclude:
   - Gemfile.lock
 
 compress_html:
-comments:            ['<!-- ', ' -->']
-clippings:           all
-endings:             all
-
+comments: ['<!-- ', ' -->']
+clippings: all
+endings: all
 
 defaults:
   - scope:
