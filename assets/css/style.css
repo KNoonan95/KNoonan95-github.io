@@ -1,6 +1,5 @@
 
 h1 {
-  color: purple;
   font-family: serif ;
   text-align: center;
   margin-top: 50px;
@@ -21,11 +20,7 @@ h2 {
 p {
   color: black;
   font-family: verdana;
-  line-height: 1.8;
-}
-
-img{
-  border: 5px solid rgb(5, 72, 25)
+  line-height: 2.2;
 }
 
 .automargin {
